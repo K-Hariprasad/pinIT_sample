@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 1;
+}
+
+.navbar{
+    /* background-image: radial-gradient(rgb(2, 30, 66),rgb(5, 85, 74)); */
+    padding: 0 !important;
+    background-color:#040d0e;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+.navbar-brand:hover{
+    color: crimson !important;
+    transform: scale(1.2);
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    scroll-padding-top: 10px;
+}
+.navbar-nav li a:hover{
+    color: crimson!important;
+    transform: scale(1.2);
+}
+ .navbar-toggler {
+    outline: none !important;
+    border: none;
+  }
+
+  #banner{
+      background-color: #040d0e;
+      color: #fff;
+      padding-top: 5%;
+      text-align: center;
+  }
+.title1{
+    text-decoration: solid;
+    font-weight: normal;
+    font-size: 40px;
+}
+.note{
+    padding-bottom: 7%;
+}
+.quote{
+    color: rgb(6, 179, 179);
+}
+.exp:hover{
+    background-color: crimson;
+    color: white;
+    transform: scale(1.2);
+}
+.pinIT{
+    color: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.pinIT:hover{
+    color: rgb(240, 11, 57);
+}
+#about{
+    padding-top: 3%;
+}
+.heading-main{
+    color: #040d0e;
+    font-weight: bold;
+    font-size: 30px;
+    /*  */
+}
+.desc-about{
+    color: rgb(5, 71, 71);
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.heading{
+    content: "";
+    height: 3px;
+    width: 180px;
+    background: crimson;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-18px);
+}
+#teamsec{
+    background-color:  #dcf4f7 ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+.team{
+    padding: 1%;
+}
+.team img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.col-md-2{
+    border: #040d0e 2px solid;
+    margin-top: 2px;
+}
+
+.name{
+    color: rgb(11, 32, 32);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.desg{
+    color: rgb(1, 11, 14);
+    font-size: 15px;
+    
+}
+.btn-cust{
+    background-color:#040d0e ;
+    color: white;
+}
+.btn-cust:hover{
+    background-color :crimson;
+    color: #ffffff;
+}
+.over{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(10, 10, 12, 0.815);
+    background-image: url(./img/lap.jpg);
+    background-size: cover;
+}
+.item{
+    padding: 2%;
+}
+.ico{
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+.card{
+    background-color: rgba(10, 10, 12, 0.815);
+    border: transparent;
+    border: white solid 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+.service-item{
+    color: rgb(15, 238, 190);
+}
+#footer{
+    background-color:#040d0e ;
+    margin-top: 10px;
+    padding: 1%;
+}
+.pinIT-foot{
+color: crimson;
+font-size: 50px;
+margin-bottom: 20px;
+}
+.contact{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cont{
+    color: crimson;
+}
+.cont-it{
+    color: white;
+}
+.subs{
+    padding-top: 2%;
+    color: crimson;
+    font-weight: bold;
+}
+.btn-sub{
+    background-color: crimson;
+    border-radius: 8px;
+    border-color:transparent;
+    color: white;
+    padding: 2px;
+    display: inline-block;
+}
+.details{
+    border-left: white 2px solid;
+}
