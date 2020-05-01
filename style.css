@@ -154,15 +154,20 @@
     margin-bottom: 8px;
 }
 .card{
-    background-color: rgba(10, 10, 12, 0.815);
-    border: transparent;
+    background-color: rgba(10, 10, 12, 0.85);
     border: white solid 2px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px;
 }
+.card:hover{
+    transform: scale(1.03);
+    background-color: #040d0e;
+    border: transparent;
+}
+
 .service-item{
-    color: rgb(15, 238, 190);
+    color: crimson;
 }
 #footer{
     background-color:#040d0e ;
